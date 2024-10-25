@@ -1,0 +1,50 @@
+body {
+    background-color: #FAEBD7; /* Light golden color */
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0e68c; /* Slightly darker background for header */
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.5em; /* Smaller heading for contact section */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+}
+
+a:hover {
+    color: #555; /* Darker color on hover */
+}
+
+.responsive-image {
+    max-width: 80%; /* Adjusted for better sizing */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px 0; /* Add margin around images */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
