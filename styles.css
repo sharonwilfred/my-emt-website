@@ -1,22 +1,20 @@
 body {
-    background-color: #FAEBD7; /* Light golden color */
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif; /* Set font to Times New Roman */
+    background-color: #f9e7b1; /* Light golden background */
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 header {
-    background-color: #f0e68c; /* Slightly darker background for header */
+    background-color: #f3c29b; /* Header background color */
     padding: 10px;
     text-align: center;
 }
 
 h1 {
     font-size: 2.5em;
-}
-
-h3 {
-    font-size: 1.5em; /* Smaller heading for contact section */
+    color: #5b3a2d; /* Header text color */
 }
 
 nav ul {
@@ -26,25 +24,45 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
-a {
+nav ul li a {
     text-decoration: none;
-    color: #333; /* Dark text color */
+    color: #5b3a2d; /* Link color */
+    font-weight: bold;
 }
 
-a:hover {
-    color: #555; /* Darker color on hover */
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
-.responsive-image {
-    max-width: 80%; /* Adjusted for better sizing */
-    height: auto; /* Maintain aspect ratio */
-    margin: 20px 0; /* Add margin around images */
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #5b3a2d; /* Subheading text color */
 }
 
 footer {
+    background-color: #f3c29b; /* Footer background color */
+    padding: 10px;
     text-align: center;
-    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h3 {
+    margin: 10px 0;
+}
+
+.responsive-image {
+    width: 100%; /* Make images responsive */
+    max-width: 300px; /* Set a max width to maintain size consistency */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 20px auto; /* Center images */
 }
